@@ -1,0 +1,19 @@
+paths:
+  /api/usuarios:
+    post:
+      summary: Creates a new usuario
+      tags:
+        - Usuarios
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/requestBodies/NewUser'
+      responses:
+        "201":
+          description: The created usuario.
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Product'
