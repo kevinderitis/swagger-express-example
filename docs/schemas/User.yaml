@@ -1,0 +1,23 @@
+# User
+components:
+  schemas:
+    User:
+      type: object
+      required:
+        - id
+        - nombre
+        - apellido
+      properties:
+        id:
+          type: string
+          description: The auto-generated id of the product.
+        nombre:
+          type: string
+          description: The name of the user.
+        precio:
+          type: number
+          description: The lastname of the user.
+      example:
+         id: 4ughd73658fnsk85dh58sk
+         nombre: Lucas
+         apellido: Gonzalez
