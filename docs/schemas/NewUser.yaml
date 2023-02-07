@@ -5,14 +5,14 @@ components:
       type: object
       required:
         - nombre
-        - precio
+        - apellido
       properties:
         nombre:
           type: string
           description: The title of the user.
-        precio:
+        apellido:
           type: number
           description: The price of the user.
       example:
-         nombre: desktop computer
-         precio: 123.78
+         nombre: Lucas
+         apellido: Gonzalez

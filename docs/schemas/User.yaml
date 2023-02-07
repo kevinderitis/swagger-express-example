@@ -14,7 +14,7 @@ components:
         nombre:
           type: string
           description: The name of the user.
-        precio:
+        apellido:
           type: number
           description: The lastname of the user.
       example:
